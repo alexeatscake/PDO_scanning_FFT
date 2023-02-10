@@ -1,0 +1,16 @@
+name: hld_sfft
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipython
+  - jupyter
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - python==3.10
+  - scipy
+  - tqdm
+  - pip:
+    - pyarrow
